@@ -1,0 +1,91 @@
+[Adblock Plus 2.0]
+! Title: Patrick's Filterlist
+! Expires: 2d
+! Version: git
+! License: MIT
+! Homepage: https://github.com/p-mng/ublock-filterlist
+! Description: Yet another filterlist for uBlock Origin
+
+
+
+! 2021-01-21 https://tutorials-raspberrypi.de
+! dark fullscreen overlay
+tutorials-raspberrypi.de##[id^=spu-bg]
+
+! 2021-02-18 https://www.ebay-kleinanzeigen.de
+! ad popup
+www.ebay-kleinanzeigen.de##.modal-dialog.mfp-popup-medium
+www.ebay-kleinanzeigen.de##.ReactModal__Overlay--after-open.ReactModal__Overlay
+
+! 2021-02-22 https://www.hosttest.de
+! sponsored offers
+www.hosttest.de##div.search-result:has-text(Anzeige)
+
+! 2021-02-23 https://www.youtube.com
+! YouTube sponsor button
+www.youtube.com###sponsor-button
+
+! 2021-02-23 https://www.finanzen.net
+! transparent sticky header
+www.finanzen.net##.sticky-height-prefix
+
+! 2021-03-01 https://www.geoguessr.com
+! in-game ads
+www.geoguessr.com##[class$=in-game-ad]
+www.geoguessr.com###ad-score
+
+! 2021-03-02 https://regex101.com
+! sponsor
+regex101.com##div > div > div > div > div:has(div:has-text(Sponsor))
+
+! 2021-03-02 https://www.hltv.org
+! gambling ads
+||www.hltv.org/img/static/widgets/ggbet/gg_en.jpg$image
+www.hltv.org##.featured-matches-top
+www.hltv.org##.gg-bg
+www.hltv.org##.gg-firstcol-box
+www.hltv.org##.live-match-container
+www.hltv.org##.etbx-fourth
+www.hltv.org##.footer-responsible-container
+
+! 2021-03-03 https://www.duden.de
+! ad labels
+www.duden.de##[class$=__label]
+
+! 2021-03-03 https://www.hltv.org
+! gambling menu item
+www.hltv.org##.bsec.nav
+
+! 2021-03-04 https://www.studydrive.net
+! sidebar ad
+www.studydrive.net##div > a[href^="https://connect.studydrive.net/out/"]
+
+! 2021-03-05 https://www.gew.de
+! cookie popup
+www.gew.de##.modal-backdrop
+||www.gew.de/typo3conf/ext/cookieman/Resources/Public/Js/cookieman.js$script,domain=www.gew.de
+||www.gew.de/typo3conf/ext/cookieman/Resources/Public/Js/cookieman-init.min.js$script,domain=www.gew.de
+
+! 2021-03-07 https://www.der-postillon.com
+! steady ads
+www.der-postillon.com##[id^=steady]
+
+! 2021-03-08 https://www.studis-online.de
+! ad banners
+www.studis-online.de###ston-billboard
+www.studis-online.de##.ston-billboard
+www.studis-online.de###ston-footer-ad
+
+! 2021-03-08 https://www.sueddeutsche.de
+! ad
+www.sueddeutsche.de##ul > li > a[href^="https://advertorial.sueddeutsche.de"]
+
+! 2021-03-10 https://www.welt.de
+! in-text ads
+www.welt.de##[class$=is-rectangle-ad]
+
+! 2021-03-15 https://www.steinhaus.net
+! cookie popup
+www.steinhaus.net##.modal-backdrop
+||www.steinhaus.net/typo3conf/ext/cookieman/Resources/Public/Js/*$script,domain=www.steinhaus.net
+||www.steinhaus.net/fileadmin/js/jquery.cookie.js$script,domain=www.steinhaus.net
