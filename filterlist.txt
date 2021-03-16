@@ -89,3 +89,11 @@ www.welt.de##[class$=is-rectangle-ad]
 www.steinhaus.net##.modal-backdrop
 ||www.steinhaus.net/typo3conf/ext/cookieman/Resources/Public/Js/*$script,domain=www.steinhaus.net
 ||www.steinhaus.net/fileadmin/js/jquery.cookie.js$script,domain=www.steinhaus.net
+
+! 2021-03-16 https://www.hltv.org
+! gambling ads
+||www.hltv.org/img/static/widgets/luckbox/*.png$image
+||www.hltv.org/img/static/featured_bet_bg.png$image
+www.hltv.org##[class*=luckbox]
+www.hltv.org##div[class*="featured-match"]
+www.hltv.org##[class*=thunderpick]
