@@ -97,3 +97,11 @@ www.steinhaus.net##.modal-backdrop
 www.hltv.org##[class*=luckbox]
 www.hltv.org##div[class*="featured-match"]
 www.hltv.org##[class*=thunderpick]
+
+! 2021-03-16 https://www.hltv.org
+! more gambling ads
+www.hltv.org##.ggbe
+
+! 2021-03-17 https://www.studydrive.net
+! pinned posts (sponsorships, ads etc.)
+www.studydrive.net##.post-item:has(span > i.icon-pin)
