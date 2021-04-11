@@ -31,8 +31,8 @@ www.finanzen.net##.sticky-height-prefix
 
 ! 2021-03-01 https://www.geoguessr.com
 ! in-game ads
-www.geoguessr.com##[class$=in-game-ad]
 www.geoguessr.com###ad-score
+www.geoguessr.com##[class$=in-game-ad]
 
 ! 2021-03-02 https://regex101.com
 ! sponsor
@@ -40,13 +40,13 @@ regex101.com##div > div > div > div > div:has(div:has-text(Sponsor))
 
 ! 2021-03-02 https://www.hltv.org
 ! gambling ads
-||www.hltv.org/img/static/widgets/ggbet/gg_en.jpg$image
+www.hltv.org##.etbx-fourth
 www.hltv.org##.featured-matches-top
+www.hltv.org##.footer-responsible-container
 www.hltv.org##.gg-bg
 www.hltv.org##.gg-firstcol-box
+||www.hltv.org/img/static/widgets/ggbet/gg_en.jpg$image
 www.hltv.org##.live-match-container
-www.hltv.org##.etbx-fourth
-www.hltv.org##.footer-responsible-container
 
 ! 2021-03-03 https://www.duden.de
 ! ad labels
@@ -63,8 +63,8 @@ www.studydrive.net##div > a[href^="https://connect.studydrive.net/out/"]
 ! 2021-03-05 https://www.gew.de
 ! cookie popup
 www.gew.de##.modal-backdrop
-||www.gew.de/typo3conf/ext/cookieman/Resources/Public/Js/cookieman.js$script,domain=www.gew.de
 ||www.gew.de/typo3conf/ext/cookieman/Resources/Public/Js/cookieman-init.min.js$script,domain=www.gew.de
+||www.gew.de/typo3conf/ext/cookieman/Resources/Public/Js/cookieman.js$script,domain=www.gew.de
 
 ! 2021-03-07 https://www.der-postillon.com
 ! steady ads
@@ -86,17 +86,17 @@ www.welt.de##[class$=is-rectangle-ad]
 
 ! 2021-03-15 https://www.steinhaus.net
 ! cookie popup
+||www.steinhaus.net/fileadmin/js/jquery.cookie.js$script,domain=www.steinhaus.net
 www.steinhaus.net##.modal-backdrop
 ||www.steinhaus.net/typo3conf/ext/cookieman/Resources/Public/Js/*$script,domain=www.steinhaus.net
-||www.steinhaus.net/fileadmin/js/jquery.cookie.js$script,domain=www.steinhaus.net
 
 ! 2021-03-16 https://www.hltv.org
 ! gambling ads
-||www.hltv.org/img/static/widgets/luckbox/*.png$image
-||www.hltv.org/img/static/featured_bet_bg.png$image
 www.hltv.org##[class*=luckbox]
-www.hltv.org##div[class*="featured-match"]
 www.hltv.org##[class*=thunderpick]
+www.hltv.org##div[class*="featured-match"]
+||www.hltv.org/img/static/featured_bet_bg.png$image
+||www.hltv.org/img/static/widgets/luckbox/*.png$image
 
 ! 2021-03-16 https://www.hltv.org
 ! more gambling ads
@@ -105,3 +105,16 @@ www.hltv.org##.ggbe
 ! 2021-03-17 https://www.studydrive.net
 ! pinned posts (sponsorships, ads etc.)
 www.studydrive.net##.post-item:has(span > i.icon-pin)
+
+! 2021-04-05 https://libreboot.org
+! support stallmann banner
+libreboot.org##div:has-text(Defend Richard Stallman)
+
+! 2021-04-11 https://www.finanzen.net
+! ads
+www.finanzen.net##.bs-wrapper-height-prefix.bs-wrapper
+www.finanzen.net##div:has-text(/^Werbung$/)
+www.finanzen.net##[href="http://g.finanzen.net/solidvest-fondsdetailseiten-b"]
+www.finanzen.net##[href="http://g.finanzen.net/vanguard-sponsoring-fondsseiten-berater"]
+www.finanzen.net###mrec
+www.finanzen.net###wikifolioContainer
