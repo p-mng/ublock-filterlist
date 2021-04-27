@@ -118,3 +118,28 @@ www.finanzen.net##[href="http://g.finanzen.net/solidvest-fondsdetailseiten-b"]
 www.finanzen.net##[href="http://g.finanzen.net/vanguard-sponsoring-fondsseiten-berater"]
 www.finanzen.net###mrec
 www.finanzen.net###wikifolioContainer
+
+! 2021-04-24 https://www.digitaltrends.com
+! cookie banner
+www.digitaltrends.com##[id^=CybotCookiebot]
+
+! 2021-04-26 https://www.proshop.de
+! background ads
+||www.proshop.de/Images/Eng-*.jpg$image
+||www.proshop.de/Images/Eng_*.jpg$image
+||www.proshop.de/Images/Proshop-Hue-GIF-German_*.gif$image
+www.proshop.de##.site-top-banner
+www.proshop.de##.visible-lg.site-background-cta
+
+! 2021-04-27 https://www.experts-exchange.com
+! half-screen overlay
+www.experts-exchange.com###bottomBarSignup
+
+! 2021-04-27 https://www.netdoktor.de
+! ad banners
+www.netdoktor.de##[class^=ad]
+www.netdoktor.de###footer-ad-slot
+
+! 2021-04-27 https://www.spiegel.de
+! (unskippable) cookie consent redirect
+||cdn.prod.www.spiegel.de/public/shared/generated/js/header.*.js$script,domain=www.spiegel.de
