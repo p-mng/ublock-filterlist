@@ -143,3 +143,62 @@ www.netdoktor.de###footer-ad-slot
 ! 2021-04-27 https://www.spiegel.de
 ! (unskippable) cookie consent redirect
 ||cdn.prod.www.spiegel.de/public/shared/generated/js/header.*.js$script,domain=www.spiegel.de
+
+! 2021-04-27 https://voebb.onleihe.de
+! dark full-screen overlayy
+voebb.onleihe.de##.reveal-overlay
+
+! 2021-04-28 https://www.welt.de
+! ads
+www.welt.de##[class$=is-commercial]
+
+! 2021-04-28 https://www.newsweek.com
+! ads
+www.newsweek.com##[id$=-belowcontent]
+
+! 2021-04-28 https://www.welt.de
+! ads
+www.welt.de##[class*=ad-appnexus]
+
+! 2021-04-29 https://forum.cgsecurity.org
+! ads
+forum.cgsecurity.org##.adsense
+
+! 2021-05-05 https://www.manager-magazin.de
+! unskippable cookie consent like on spiegel.de and ads
+||cdn.prod.www.manager-magazin.de/public/shared/generated/js/header.*.js$script,domain=www.manager-magazin.de
+www.manager-magazin.de##div:has( > div[data-vouchers-el="advertisementLabel"])
+
+! 2021-05-05 https://www.spiegel.de
+! ads
+www.spiegel.de##div:has( > div[data-vouchers-el="advertisementLabel"])
+
+! 2021-05-10 https://www.spiegel.de
+! gambling ads
+www.spiegel.de##div[data-area="services"] > div:nth-of-type(2)
+
+! 2021-05-12 https://spiele.spiegel.de
+! (gambling) ads
+spiele.spiegel.de##.ad
+spiele.spiegel.de##div[data-area="services"] > div:nth-of-type(2)
+spiele.spiegel.de##[id^=ad]
+
+! 2021-05-12 https://www.studydrive.net
+! ads
+www.studydrive.net##div[class*="company-sponsor"]
+www.studydrive.net##div[class*="sidebar-ad"]
+
+! 2021-05-13 https://praxistipps.focus.de
+! ads
+praxistipps.focus.de##.Ad
+praxistipps.focus.de##.align.Ad
+praxistipps.focus.de##.Article__Ad
+
+! 2021-05-13 https://www.skyfilabs.com
+! annoying talking chatbot
+||chat.acobot.ai^$script
+www.skyfilabs.com##.acoAnimated
+www.skyfilabs.com##.aco-chat-wrapper
+www.skyfilabs.com##.aco-modern
+www.skyfilabs.com##.aco-second-col
+www.skyfilabs.com##.aco-slide-fixed-chat
