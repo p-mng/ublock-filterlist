@@ -202,3 +202,41 @@ www.skyfilabs.com##.aco-chat-wrapper
 www.skyfilabs.com##.aco-modern
 www.skyfilabs.com##.aco-second-col
 www.skyfilabs.com##.aco-slide-fixed-chat
+
+! 2021-05-20 https://www.giga.de
+! ads
+||teaser.giga.de$image
+www.giga.de##[class^=teaserheld-header]
+www.giga.de##.ed-container
+www.giga.de##.u-shape-top
+
+! 2021-05-20 https://www.onetoone.de
+! ads
+www.onetoone.de##[class^=anzeige]
+
+! 2021-05-20 https://www.ratbacher.de
+! fullscreen overlay
+www.ratbacher.de##.in.fade.modal-backdrop
+
+! 2021-05-23 https://genius.com
+genius.com##[class^=Leaderboard]
+
+! 2021-05-26 https://praxistipps.focus.de
+! empty boxes
+praxistipps.focus.de##.FC__Container
+praxistipps.focus.de##[id^=R]
+
+! 2021-05-26 https://www.focus.de
+! ads
+www.focus.de##.branding
+
+! 2021-05-26 https://hypixel.net
+! cookiebanner (no accept needed)
+hypixel.net##.notice-content
+
+! 2021-05-26 https://regexr.com
+regexr.com##.hello
+
+! 2021-05-26 https://www.softwaretestingmaterial.com
+! cookie script (blocks scrolling)
+||*.kxcdn.com^$script,domain=www.softwaretestingmaterial.com
