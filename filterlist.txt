@@ -235,8 +235,51 @@ www.focus.de##.branding
 hypixel.net##.notice-content
 
 ! 2021-05-26 https://regexr.com
+! ads
 regexr.com##.hello
 
 ! 2021-05-26 https://www.softwaretestingmaterial.com
 ! cookie script (blocks scrolling)
 ||*.kxcdn.com^$script,domain=www.softwaretestingmaterial.com
+
+! 2021-06-09 https://play.google.com
+! Google Play Pass ad
+play.google.com##div:has( > a[href="/store/pass"])
+
+! 2021-06-09 https://www.kicktipp.de
+! ad banner
+www.kicktipp.de###adtag_banner
+
+! 2021-06-09 https://www.kicktipp.de
+! bwin banner (odds are still shown)
+www.kicktipp.de##.bwin.wettquoten
+
+! 2021-06-11 https://limetorrents.co
+! sponsored links
+limetorrents.co##.table3:has-text(Sponsored Links)
+
+! 2021-06-14 *
+! dark fullscreen overlay
+##.reveal-modal-bg
+
+! 2021-06-23 https://subtitlist.com
+subtitlist.com##.text-center.banner
+
+! 2021-06-26 https://www.zeit.de
+! "zeit.de pur" banner
+www.zeit.de##.paywall-footer
+
+! 2021-06-26 *
+! dark fullscreen overlay
+##.onetrust-pc-dark-filter
+
+! 2021-06-29 https://androidforums.com
+androidforums.com###messageList > .messageList
+
+! 2021-07-07 https://correctiv.org
+! big donation banner
+correctiv.org##.aa-breaker-bottom-article
+
+! 2021-07-07 *
+! dark fullscreen overlay
+##.reveal-overlay
