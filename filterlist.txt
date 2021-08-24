@@ -283,3 +283,69 @@ correctiv.org##.aa-breaker-bottom-article
 ! 2021-07-07 *
 ! dark fullscreen overlay
 ##.reveal-overlay
+
+! 2021-07-08 https://pokemon-go-forum.de
+! ad spacer
+pokemon-go-forum.de###oc24-outside-top
+
+! 2021-07-08 https://unsplash.com
+! "say thanks" card
+unsplash.com##div[data-test="say-thanks-card"]
+
+! 2021-07-10 https://www.pcwelt.de
+! ads
+www.pcwelt.de###leadfullWrapper
+www.pcwelt.de##[id^=special_ad_]
+
+! 2021-07-12 https://www.ariva.de
+! ads
+www.ariva.de###siteTeaserBox
+
+! 2021-07-14 https://smallseotools.com
+! ads
+||smallseotools.com/6-2-2021_*.gif$image
+||smallseotools.com/6-2-2021_*.png$image
+smallseotools.com##.__hammm_haa_
+
+! 2021-07-14 https://www.duden.de
+! moving banner
+www.duden.de##.breaking
+
+! 2021-07-17 https://www.kodinerds.net
+! ads
+www.kodinerds.net##.threadAdsMessageText
+
+! 2021-07-26 https://www.der-postillon.com
+! ads
+www.der-postillon.com###HTML6
+www.der-postillon.com###postillon-werbung
+
+! 2021-08-05 https://unsplash.com
+! ads
+unsplash.com##div[data-test="TopicInFeedAd-Container"]
+
+! 2021-08-05 https://www.rennrad-news.de
+! ads/spacers
+www.rennrad-news.de##.mtbnewsAdBillboardContainer
+www.rennrad-news.de##.p-header
+
+! 2021-08-05 https://praxistipps.chip.de
+praxistipps.chip.de##.Article__Ad
+
+! 2021-08-06 https://www.sparda.de
+www.sparda.de###overlay--modal
+
+! 2021-08-11 https://www.x-kom.de
+! cookie js (blocks scrolling)
+||www.x-kom.de/plugins/ws5_eucookie/frontend/js/dist/main.js$script
+
+! 2021-08-12 https://www.finanzen.net
+www.finanzen.net##.cpg_incontent1-container
+www.finanzen.net##.fixed-height-desktop-only
+
+! 2021-08-13 https://www.limetorrents.pro
+www.limetorrents.pro##.table3
+
+! 2021-08-24 https://www.politicalflare.com
+www.politicalflare.com##.ad
+www.politicalflare.com##.advertisement
