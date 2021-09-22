@@ -1,0 +1,10 @@
+! auto-translated spam sites
+
+||geekflare.com^
+||qastack.com^
+||qastack.com.de^
+
+! GitHub/GitLab "trackers"
+
+||libhunt.com^
+||www.libhunt.com^

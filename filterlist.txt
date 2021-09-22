@@ -6,8 +6,6 @@
 ! Homepage: https://github.com/p-mng/ublock-filterlist
 ! Description: Yet another filterlist for uBlock Origin
 
-
-
 ! 2021-01-21 https://tutorials-raspberrypi.de
 ! dark fullscreen overlay
 tutorials-raspberrypi.de##[id^=spu-bg]
@@ -349,3 +347,29 @@ www.limetorrents.pro##.table3
 ! 2021-08-24 https://www.politicalflare.com
 www.politicalflare.com##.ad
 www.politicalflare.com##.advertisement
+
+! 2021-09-10 https://www.gentoo.org
+! sponsors
+www.gentoo.org##.sponsor.row
+
+! 2021-09-10 https://www.macwelt.de
+www.macwelt.de###leadfullWrapper
+
+! 2021-09-11 *
+! blocks scrolling
+||*.cloudfront.net/include/js/configfea.js?*$script
+
+! 2021-09-14 https://genius.com
+! promotions/ads
+genius.com##div[class*=PromoContainer]
+genius.com##div[class^=SectionLeaderboard]
+
+! 2021-09-15 https://www.studis-online.de
+! ads
+www.studis-online.de###ston-ad-billboard
+www.studis-online.de##.ston-centeredcell
+www.studis-online.de##.ston-contentad
+
+! 2021-09-21 *
+! cookie overlay
+##.show.fade.modal-backdrop
